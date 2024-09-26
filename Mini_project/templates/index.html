@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Credit card</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="container">
+            <div class="left">
+                <nav>
+                    <h1>MYCARD</h1>
+                </nav>
+                <div class="desc">
+                    <h2>
+                        Be safe.
+                    </h2>
+                    <h2>
+                        Stay away from credit card frauds.
+                    </h2>
+                </div>
+            </div>
+            <div class="right">
+                <div class="box-1">
+                    <div class="circle"></div>
+                </div>
+                <div class="box-2">
+                    <div class="box-2-1 flex">
+                        <div class="full-circle"></div>
+                    </div>
+                    <div class="box-2-2">
+                        <div class="inner-circle-1">
+                            <div class="inner-circle-2"></div>
+                        </div>
+
+                    </div>
+                    <div class="box-2-3"></div>
+                </div>
+                <img id="cc" src="../static/credit card.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <div class="form-container">
+            <img src="../static/cd2.png" alt="" srcset="">
+            <form action="/submit" method="post">
+
+                <select id="category" name="category">
+                    <option value="misc_net">misc_net</option>
+                    <option value="grocery_pos">grocery_pos</option>
+                    <option value="entertainment">entertainment</option>
+                    <option value="gas_transport">gas_transport</option>
+                    <option value="misc_pos">misc_pos</option>
+                    <option value="grocery_net">grocery_net</option>
+                    <option value="shopping_net">shopping_net</option>
+                    <option value="shopping_pos">shopping_pos</option>
+                    <option value="food_dining">food_dining</option>
+                    <option value="personal_care">personal_care</option>
+                    <option value="health_fitness">health_fitness</option>
+                    <option value="travel">travel</option>
+                    <option value="kids_pets">kids_pets</option>
+                </select>
+                <select id="state" name="state">
+                    <option value="NC">NC</option>
+                    <option value="WA">WA</option>
+                    <option value="ID">ID</option>
+                    <option value="MT">MT</option>
+                    <option value="VA">VA</option>
+                    <option value="PA">PA</option>
+                    <option value="KS">KS</option>
+                    <option value="TN">TN</option>
+                    <option value="IA">IA</option>
+                    <option value="WV">WV</option>
+                    <option value="FL">FL</option>
+                    <option value="CA">CA</option>
+                    <option value="NM">NM</option>
+                    <option value="NJ">NJ</option>
+                    <option value="OK">OK</option>
+                    <option value="IN">IN</option>
+                    <option value="MA">MA</option>
+                    <option value="TX">TX</option>
+                    <option value="WI">WI</option>
+                    <option value="MI">MI</option>
+                    <option value="WY">WY</option>
+                    <option value="HI">HI</option>
+                    <option value="NE">NE</option>
+                    <option value="OR">OR</option>
+                    <option value="LA">LA</option>
+                    <option value="DC">DC</option>
+                    <option value="KY">KY</option>
+                    <option value="NY">NY</option>
+                    <option value="MS">MS</option>
+                    <option value="UT">UT</option>
+                    <option value="AL">AL</option>
+                    <option value="AR">AR</option>
+                    <option value="MD">MD</option>
+                    <option value="GA">GA</option>
+                    <option value="ME">ME</option>
+                    <option value="AZ">AZ</option>
+                    <option value="MN">MN</option>
+                    <option value="OH">OH</option>
+                    <option value="CO">CO</option>
+                    <option value="VT">VT</option>
+                    <option value="MO">MO</option>
+                    <option value="SC">SC</option>
+                    <option value="NV">NV</option>
+                    <option value="IL">IL</option>
+                    <option value="NH">NH</option>
+                    <option value="SD">SD</option>
+                    <option value="AK">AK</option>
+                    <option value="ND">ND</option>
+                    <option value="CT">CT</option>
+                    <option value="RI">RI</option>
+                </select>
+                <br>
+
+
+                <input id="amount" name="amount" placeholder="amount" required>
+
+
+                <input id="zip" name="zip" placeholder="zip" required>
+
+
+                <input id="latitude" name="latitude" placeholder="latitude" required>
+
+
+                <input id="longitude" name="longitude" placeholder="longitude" required>
+
+
+                <input id="ccnum" name="ccnum" placeholder="cc num" required>
+
+
+                <input id="mlatitude" name="mlatitude" placeholder="Merch Latitude" required>
+
+
+                <input id="mlongitude" name="mlongitude" placeholder="Merch Longitude" required>
+
+
+
+                <input id="age" name="age" placeholder="Age" required>
+
+
+
+                <input id="hour" name="hour" placeholder="Hour" required>
+
+
+
+                <input id="day" name="day" placeholder="Day" required>
+
+
+
+                <input id="month" name="month" placeholder="Month" required>
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
